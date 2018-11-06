@@ -32,7 +32,7 @@ pipeline {
 
   }
   parameters {
-    choice(name: 'REQUESTED_ACTION', choices: '''Build
+    choice(name: 'REQUESTED_ACTION', choices: '''Build, Test
 ''', description: 'Type of action to perform')
   }
 }
