@@ -1,5 +1,5 @@
 ---
-- hosts: 35.233.63.73 
+- hosts: 52.30.148.25
   become: yes
   tasks:
     - name: Install NPM Package
