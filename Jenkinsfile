@@ -1,5 +1,6 @@
 pipeline {
-  agent any
+  // agent any
+  agent {label 'slave'} //check specific working agent, becuase other agents stuck 
   stages {
     stage('Build Node App') {
       when {
