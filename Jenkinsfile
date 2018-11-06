@@ -33,13 +33,10 @@ pipeline {
   }
   parameters {
     choice(name: 'REQUESTED_ACTION', choices: '''Build
+    Test
     Stage
 ''', description: 'Type of action to perform')
   }
 
-  parameters {
-    choice(name: 'REQUESTED_ACTION', choices: '''Build
-     Test
-''', description: 'Type of action to perform')
-  }
+ 
 }
